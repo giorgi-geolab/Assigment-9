@@ -76,10 +76,16 @@ main > h6 {
 
 /* FOOTER STYILING */
 
+/* SECTION 1 */
+
 footer {
   margin-top: 84px;
   justify-content: center;
   display: flex;
+}
+
+#only-texts-section {
+  margin-right: 83px;
 }
 
 #only-texts-section > h6 {
@@ -109,4 +115,41 @@ footer {
   line-height: 23px;
   color: #636060;
   margin-top: 32px;
+}
+
+/* SECTION 2 */
+
+#below-boxes {
+  margin-top: 56px;
+  margin-bottom: 140px;
+}
+
+.box {
+  display: inline-block;
+  margin-right: 33px;
+}
+
+.box > img {
+  width: 286px;
+  height: 195px;
+  object-fit: cover;
+}
+
+.box > h2 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 21.85px;
+  text-transform: uppercase;
+  color: #343232;
+  margin-top: 23px;
+}
+
+.box > p {
+  width: 286px;
+  height: 63px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20.7px;
+  color: #636060;
+  margin-top: 9px;
 }
